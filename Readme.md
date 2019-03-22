@@ -10,7 +10,7 @@ Enable Databinding in `build.gradle` file that app part inside `android{}` tag
     }
     ```
 After That Sync your app
-## Basic Databinding
+## Basic Viewbinding
 ### Layout Compatible
 if you using linear layout add layout `<layout> .... linear layout ..... </layout>` over there
 and move layout name space like `xmlns:android="......" ` to this layout and <b>Build your App</b>
@@ -54,3 +54,13 @@ automatically making by an IDE
         }
     ```
     Using Attribute As same as using findViewById 
+
+## Recommended Data-Binding
+* Using Data Class (in Another Kotlin File) for keep the object type variable like the stuct in C or can use any class instead of data class
+* Link The Layout to that class
+    ```
+    <data>
+        <variable name="myName" type="com.example.aboutme.MyName"/>
+    </data>
+    ```
+    The name of the variable you can define but link to your data class or Any structure class.

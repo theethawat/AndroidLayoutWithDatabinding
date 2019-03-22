@@ -17,11 +17,13 @@ import kotlinx.android.synthetic.main.activity_main.view.*
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    private val myName:MyName = MyName("Theethawat Savastham")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_main)
-
+        //Wrong Arrange can make fatal error to the app
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
+        binding.myName = myName //link to variable Name
 
 //        findViewById<Button>(R.id.done_button).setOnClickListener{
 //            addNickname(it)
@@ -33,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun addNickname(view: View){
         binding.apply {
-            binding.nicknameShow.text = binding.nicknameInput.text
+            myName?.nickname = nicknameInput.text.toString()
             invalidateAll() /* to invaluate data (Get new data) when Refresh UI */
             binding.nicknameInput.visibility = View.GONE
             binding.doneButton.visibility = View.GONE
