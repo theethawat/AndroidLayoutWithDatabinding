@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="text_name">Theethawat Savastham</string>
+    <string name="yellow_star">Image of Yellow star</string>
+    <string name="bio_string"> Theethawat Savastham, 3rd year Computer Engineering Student at Prince of Songkla University.
+        Formerly I had made too much failed project and I\'m shy to participate in a bigger project but
+        that experience was tought me and let me change a mindset. I\'m not a clever boy but today
+        I will not lock my self from any chance. If someone give an opportunities for me ,
+        I will not say \'I\'m not sure\' or \'I\'m not ready\'.
+        All experience make me and make everyone stronger.
+        สวัสดีครับ ผมชื่อติน นักศึกษาปี 3 วิศวกรรมคอมพิวเตอร์ จากเดิมที่เป็นคนบอกว่าทำเว็บแล้วเจ๊ง ทำเพจแล้วเจ๊ง ตอนนี้ผมมีประสบการณ์มาแล้ว
+        ผมคิดใหม่แล้ว ผมอาจจะไม่ใช่คนที่เก่ง แต่ผมจะไม่ปิดโอกาสเหล่านั้น ถ้าโอกาสนั้นเข้ามาหาเรา หรือเราเข้าไปหา ผมจะไม่บอกว่า ผมยังไม่พร้อม หรือ ผมไม่แน่ใจ
+        TDC เดอะดักส์ครีเอเตอร์ เป็นครีเอเตอร์สตูดิโอ ที่จัดตั้งโดยผมเอง และมีสมาชิกอยู่คนเดียว ณ ขณะนี้คือ ผมเอง นำเสนองานต่างๆ ที่อาจจะ อยู่ในสถานะ On Trying Project ในฐานะ Developer ฝึกหัด หลายๆ คนมักจะเสนอความสำเร็จ แต่เรายินดีเสนอทั้งที่สำเร็จ และ ไม่สำเร็จ เพื่อที่จะให้ผู้ที่สนใต ได้เรียนรู้ จากความไม่สำเร็จเหล่านั้น ไว้เป็นบทเรียนต่อไป
+        20 years old (since 1998)  Thai and English Study in Computer Engineering at Prince of Songkla University since 2017
+        Interesting in Artwork and Graphic Design, Culture and Politic, History, Peace Lover
+    </string>
+    <string name="what_nickname">What is your nickname?</string>
+    <string name="done_text">Done</string>
+</resources>

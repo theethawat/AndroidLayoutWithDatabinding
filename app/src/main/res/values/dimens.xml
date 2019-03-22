@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">30sp</dimen>
+    <dimen name="small_padding">3sp</dimen>
+    <dimen name="head_margin">20sp</dimen>
+    <dimen name="icon_padding">25dp</dimen>
+    <dimen name="scroll_dimen">4sp</dimen>
+</resources>
